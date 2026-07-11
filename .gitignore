@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local OK/autograder state. Keep the .ok config files, but not personal state.
+.ok_storage.db
+.ok_history
+.ok_messages
+
+# The OK executable was distributed inside each assignment, which made the
+# archive much larger. Keep one local copy when running tests instead.
+ok
+
+# Accidental local scratch files.
+*.sql;
